@@ -14,7 +14,7 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ["https://jobboard-live-dcpdphxim-mihir-jains-projects-0f8ddd75.vercel.app/"],
+    origin: ["https://vercel.com/mihir-jains-projects-0f8ddd75/job_board-live"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
