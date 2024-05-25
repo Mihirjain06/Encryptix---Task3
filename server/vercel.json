@@ -1,0 +1,10 @@
+{
+    "version": 2,
+    "name":"job-board",
+    "builds" : [
+        { "src": "app.js", "use": "@/vercelnode"}
+    ],
+    "routes": [
+        { "src": "/(.*)", "dest": "app.js"}
+    ]
+}
