@@ -14,7 +14,7 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: [process.env.CLIENT_URL],
+    origin: ["https://encryptix-task3-z2tx.vercel.app"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
