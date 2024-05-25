@@ -14,7 +14,7 @@ dotenv.config({ path: "./config/config.env" });
 
 app.use(
   cors({
-    origin: ["https://vercel.com/mihir-jains-projects-0f8ddd75/job_board-live"],
+    origin: ["https://encryptix-task3.vercel.app/"],
     methods: ["GET", "POST", "DELETE", "PUT"],
     credentials: true,
   })
